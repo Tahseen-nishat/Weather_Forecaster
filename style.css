@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://image.shutterstock.com/image-photo/blue-sky-white-cloud-background-260nw-1934800265.jpg");
+    background-size: cover;
+}
+
+.container{
+    margin:100px 500px;
+    padding: 50px;
+    background-color: rgba(105, 132, 132, 0.604);
+    border-radius: 35px;
+}
+
+.inp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.inp input{
+    width: 350px;
+    height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 4px 4px 4px 15px;
+    font-size: larger;
+    border-radius: 35px;
+    border: none;
+    
+}
+.inp button{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+}
+.inp button:hover{
+    background-color: rgba(210, 182, 146, 0.84);
+    cursor: pointer;
+}
+
+.wheather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wheather img{
+    width: 200px;
+    height: 200px;
+}
+
+.extra{
+    margin-top: 50px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+.humid,.wind{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    color: aliceblue;
+}
+.win,.hum{
+    font-size: 20px;
+    font-weight: bold;
+}
